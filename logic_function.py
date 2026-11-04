@@ -76,7 +76,6 @@ def add_match_result():
     match = {"home_team_id": home_team_id, "away_team_id": away_team_id, "home_goals": home_goals, "away_goals": away_goals}
     matches.append(match)
     updating_teams_data(home_team_id,away_team_id,home_goals,away_goals)
-    print(teams)
     logging.info('The game was successfully added')
 
 
